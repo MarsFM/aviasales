@@ -1,0 +1,4 @@
+.ticket-list {
+  margin: 0px 0px 0px 30px;
+  flex-basis: calc(100% / 12 * 9);
+}

@@ -1,0 +1,10 @@
+.transplant-info {
+  padding: 20px 30px;
+  box-sizing: border-box;
+}
+
+.transplant-info p {
+  text-transform: uppercase;
+  font: 11px Arial;
+  color: #8b9497;
+}

@@ -1,0 +1,12 @@
+.sidebar {
+  align-self: flex-start;
+  flex-basis: calc(100% / 12 * 3 - 30px);
+
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 30px 0 20px;
+  box-sizing: border-box;
+  box-shadow: 0 0 3px 0 hsla(0,0%,62%,.5);
+  
+  box-sizing: border-box;
+}

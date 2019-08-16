@@ -1,0 +1,54 @@
+.transplants {
+  
+}
+
+.transplants__title {
+  font: 14px Arial;
+  color: #4A4A4A;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+
+.transplants__input {
+  display: none;
+  padding: 10px;
+}
+
+.transplants__item {
+  position: relative;
+  padding: 10px;
+  user-select: none;
+}
+
+.transplants__label {
+  cursor: pointer;
+  margin-left: 30px;
+  font: 12px Arial;
+}
+
+.transplants__label::before {
+  display: inline-block;
+  content: "";
+  position: absolute;
+  left: 10px;
+  width: 19px;
+  height: 19px;
+  border: 1px solid #8b9497;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.transplants__input:checked + .transplants__label::before {
+  content: "\2713";
+  color: #2196f3;
+  border-color: #2196f3;
+  text-align: center;
+}
+
+.transplants__input:checked + .transplants__label {
+  color: #2196f3;
+}
+
+.transplants__item:hover {
+  background: #F1FCFF;
+}

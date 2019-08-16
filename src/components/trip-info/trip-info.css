@@ -1,0 +1,24 @@
+.trip-info {
+  font-family: Arial;
+}
+
+.trip-info__time {
+  font-size: 33px;
+  font-weight: 400;
+  color: #4a4a4a;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.trip-info__name {
+  font-size: 13px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  color: #4a4a4a;
+}
+
+.trip-info__date {
+  font-size: 11px;
+  color: #8b9497;
+}
